@@ -1,0 +1,35 @@
+.fundo_container {
+    background-color: #FADB79;
+}
+
+.container_base {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+.logo_img {
+    width: 100px;
+    height: 100px;
+}
+
+.area_links {
+    display: flex;
+    gap: 40px;
+}
+
+.link_topo {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.link_topo:hover {
+    color: rgb(94, 88, 88);
+}
