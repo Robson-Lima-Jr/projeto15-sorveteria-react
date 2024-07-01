@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+:root {
+  --corBranca: #ffffff;
+  --corCinzaClaro: #DADDE1;
+  --corCinzaMedio: #474747;
+  --corPreta: #000000;
+  --corAmarela: #FADB79;
+}
