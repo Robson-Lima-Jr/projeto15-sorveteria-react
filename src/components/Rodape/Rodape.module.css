@@ -1,0 +1,61 @@
+.fundo_footer {
+    background-color: black;
+}
+
+.container_base {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 0px auto;
+    padding: 60px 20px;
+}
+
+.container_base h5, .container_base p {
+    color: white;
+}
+
+.logo_img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer_dados {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.direitos_autorais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.direitos_autorais p {
+    color: white;
+}
+
+.desenvolvedor, .devMedia {
+    padding: 2px 10px;
+    margin: 0px 2px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+}
+
+.desenvolvedor:hover {
+    background-color: #FADB79;
+}
+
+.devMedia:hover {
+    background-color: #5dbd18;
+}
