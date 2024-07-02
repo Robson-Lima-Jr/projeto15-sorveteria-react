@@ -1,5 +1,6 @@
 import "./globals.css";
 import Topo from "@/components/Topo";
+import Rodape from "@/components/Rodape";
 
 export const metadata = {
   title: "Gelateria",
@@ -14,7 +15,8 @@ export default function RootLayout({ children }) {
         <Topo />
 
         {children}
-      
+
+        <Rodape />
       </body>
     </html>
   );
