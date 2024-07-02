@@ -18,5 +18,20 @@
 h1 {
   font-size: 100px;
   color: white;
-  text-shadow:  3px 5px 2px var(--corCinzaMedio);
+  text-shadow: 3px 5px 2px var(--corCinzaMedio);
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: var(--corCinzaMedio);
 }
