@@ -8,7 +8,7 @@ export default function Topo() {
     return (
         <header className={styles.fundo_container}>
             <div className={styles.container_base}>
-                <Image src={Logo} alt="logo gelateria" className={styles.logo_img}></Image>
+                <Link href="/"><Image src={Logo} alt="logo gelateria" className={styles.logo_img}></Image></Link>
 
                 <nav className={styles.area_links}>
                     <Link href="/" className={styles.link_topo}>Home</Link>

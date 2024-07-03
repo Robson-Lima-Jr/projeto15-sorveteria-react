@@ -8,7 +8,7 @@ export default function Rodape() {
     return (
         <footer className={styles.fundo_footer}>
             <div className={styles.container_base}>
-                <Image src={Logo} alt="logo" className={styles.logo_img}></Image>
+                <Link href="/"><Image src={Logo} alt="logo gelateria" className={styles.logo_img}></Image></Link>
 
                 <div className={styles.footer_dados}>
                     <h5>Endereço</h5>
@@ -24,7 +24,7 @@ export default function Rodape() {
                     <h5>Contato</h5>
 
                     <p>info@meusite.com</p>
-                    
+
                     <p>Tel: (11) 3456-7890</p>
                 </div>
 
@@ -32,7 +32,7 @@ export default function Rodape() {
                     <h5>Horários</h5>
 
                     <p>ABERTO TODOS OS DIAS</p>
-                    
+
                     <p>10:00 - 22:00</p>
                 </div>
             </div>

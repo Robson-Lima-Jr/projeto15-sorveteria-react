@@ -5,7 +5,6 @@ import Banner_sabores from "../../public/banner-sabores.jpg";
 import Eventos_imagem from "../../public/eventos-image.jpg";
 import Sobre_imagem from "../../public/sobre-image.jpg";
 
-
 export default function Home() {
   return (
     <main>
