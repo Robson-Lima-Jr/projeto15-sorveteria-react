@@ -33,3 +33,19 @@
 .link_topo:hover {
     color: rgb(94, 88, 88);
 }
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    .container_base {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .area_links {
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 10px;
+        border-top: 1px solid black;
+    }
+}

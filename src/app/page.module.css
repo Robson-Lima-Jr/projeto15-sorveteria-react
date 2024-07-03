@@ -37,3 +37,19 @@
 
     padding: 0px 20px;
 }
+
+/* Media-Query */
+@media screen and (max-width: 768px) {
+    .fundo_banner {
+        height: 85vh;
+    }
+
+    .imagens_config {
+        width: 100%;
+    }
+
+    .container_texto {
+        width: 100%;
+    }
+    
+}
