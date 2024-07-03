@@ -51,6 +51,7 @@
 }
 
 /* Media-Query */
+
 @media screen and (max-width: 768px) {
     .fundo_banner {
         height: 85vh;

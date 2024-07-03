@@ -42,4 +42,12 @@
     .fundo_banner {
         height: 85vh;
     }
+
+    .sobre_area h3 {
+        font-size: 18px;
+    }
+
+    .imagens {
+        width: 100%;
+    }
 }

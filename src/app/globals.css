@@ -26,12 +26,14 @@ h1 {
 
 h2 {
   font-size: 32px;
+  text-align: center;
   text-transform: uppercase;
 }
 
 h3 {
   font-size: 24px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h4 {
@@ -48,17 +50,26 @@ p {
   font-size: 16px;
   text-align: center;
   color: var(--corCinzaMedio);
+  line-height: 30px;
 }
 
 /* Media-Query */
 @media screen and (max-width: 500px) {
-  h1{
+  h1 {
     font-size: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
   }
 }
 
 @media screen and (min-width: 501px) and (max-width: 850px) {
-  h1{
+  h1 {
     font-size: 70px;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 }
