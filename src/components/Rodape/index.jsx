@@ -38,7 +38,9 @@ export default function Rodape() {
             </div>
 
             <div className={styles.direitos_autorais}>
-                <p>Gelateria. Desenvolvido por <Link href="https://github.com/Robson-Lima-Jr/projeto15-sorveteria-react" target="_blank" className={styles.desenvolvedor}>Robson Junior</Link></p>
+                <p>Gelateria.</p>
+
+                <p>Desenvolvido por <Link href="https://github.com/Robson-Lima-Jr/projeto15-sorveteria-react" target="_blank" className={styles.desenvolvedor}>Robson Junior</Link></p>
 
                 <p>Projeto <Link href="https://www.devmedia.com.br/" target="_blank" className={styles.devMedia}>DevMedia</Link></p>
             </div>

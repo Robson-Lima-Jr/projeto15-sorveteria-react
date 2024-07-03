@@ -24,7 +24,7 @@
 }
 
 .footer_dados {
-    width: 20%;
+    width: 25%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -58,4 +58,24 @@
 
 .devMedia:hover {
     background-color: #5dbd18;
+}
+
+/* Media-Query */
+@media screen and (max-width: 850px) {
+    .container_base {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    .footer_dados {
+        width: 100%;
+        height: 120px;
+        align-items: center;
+    }
+
+    .direitos_autorais {
+        padding: 5px 20px 25px;
+    }
+
 }
